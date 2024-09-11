@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  hellodevops-app:
+    build:
+      context: ./helloDevops      
+    container_name: hellodevops-app          
+    ports:
+      - 3700:3700 
